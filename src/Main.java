@@ -12,21 +12,21 @@ public class Main {
         for (int i = 0; i < integerArray.length; i++) {
             System.out.print(integerArray[i]);
             if (i != integerArray.length-1) {
-                System.out.print(" ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < floatArray.length; i++) {
             System.out.print(floatArray[i]);
             if (i != floatArray.length-1) {
-                System.out.print(" ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < myArray.length; i++) {
             System.out.print(myArray[i]);
             if (i != myArray.length-1) {
-                System.out.print(" ");
+                System.out.print(", ");
             }
         }
 
@@ -35,21 +35,21 @@ public class Main {
         for (int i = integerArray.length-1; i >= 0; i--) {
             System.out.print(integerArray[i]);
             if (i != 0) {
-                System.out.print(" ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = floatArray.length-1; i >= 0; i--) {
             System.out.print(floatArray[i]);
             if (i != 0) {
-                System.out.print(" ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = myArray.length-1; i >= 0; i--) {
             System.out.print(myArray[i]);
             if (i != 0) {
-                System.out.print(" ");
+                System.out.print(", ");
             }
         }
 
@@ -61,7 +61,7 @@ public class Main {
             }
             System.out.print(integerArray[i]);
             if (i != integerArray.length-1) {
-                System.out.print(" ");
+                System.out.print(", ");
             }
         }
     }
